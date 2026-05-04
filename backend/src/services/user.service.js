@@ -13,7 +13,6 @@ module.exports.createUser = async ({
   const user = await userModel.create({
     firstName,
     lastName,
-
     email,
     password,
   });
